@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/overview"
+            android:title="Overview" />
+        <item
+            android:id="@+id/mm"
+            android:title="Contiguous Memory Allocation"
+            />
+        <item
+            android:id="@+id/fragmentation"
+            android:title="Fragmentation" />
+
+        <item android:title="Fixed Memory Allocation"
+            android:id="@+id/ff" />
+
+        <item android:title="Variable Memory Allocation"
+            android:id="@+id/wf"/>
+
+
+    </group>
+
+
+
+</menu>

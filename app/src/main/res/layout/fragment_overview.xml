@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#6d6d6d"
+    tools:context="com.shoaibkhan.memory.Overview">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/i1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:textColor="#1b1b1b"
+        android:text="OVERVIEW"
+        android:textSize="40dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffffff"
+        android:text="A computer system has many resources (hardware and software), which may be require to complete a task. The commonly required resources are input/output devices, memory, file storage space, CPU etc. The operating system acts as a manager of the above resources and allocates them to specific programs and users, whenever necessary to perform a particular task. Therefore operating system is the resource manager i.e. it can manage the resource of a computer system internally. The resources are processor, memory, files, and I/O devices. In simple terms, an operating system is the interface between the user and the machine." />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="223dp"
+        android:src="@drawable/componentd"
+
+        />
+
+</LinearLayout>

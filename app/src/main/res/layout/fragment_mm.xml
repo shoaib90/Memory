@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.shoaibkhan.memory.Mm"
+    android:background="#6d6d6d"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/i1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:textColor="#1b1b1b"
+        android:text="Contiguous Memory Allocation"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffffff"
+        android:text="In contiguous memory allocation each process is contained in a single contiguous block of memory. Memory is divided into several fixed size partitions. Each partition contains exactly one process. When a partition is free, a process is selected from the input queue and loaded into it. The free blocks of memory are known as holes. The set of holes is searched to determine which hole is best to allocate." />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="Memory allocation is a process by which computer programs are assigned memory or space. It is of three types :"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First Fit"
+        android:textSize="15dp"
+        android:textColor="#0e0e0e"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="The first hole that is big enough is allocated to program."/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Best Fit"
+        android:textSize="15dp"
+        android:textColor="#0e0e0e"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="The smallest hole that is big enough is allocated to program."/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Worst Fit"
+        android:textSize="15dp"
+        android:textColor="#0e0e0e"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="The largest hole that is big enough is allocated to program."/>
+</LinearLayout>
